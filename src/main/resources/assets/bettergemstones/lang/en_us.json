@@ -2,5 +2,10 @@
   "item.bettergemstones.sapphire": "Sapphire",
   "item.bettergemstones.ruby": "Ruby",
   "item.bettergemstones.jade": "Jade",
-  "item.bettergemstones.topaz": "Topaz"
+  "item.bettergemstones.topaz": "Topaz",
+
+  "block.bettergemstones.sapphire_block": "Block of Sapphire",
+  "block.bettergemstones.ruby_block": "Block of Ruby",
+  "block.bettergemstones.topaz_block": "Block of Topaz",
+  "block.bettergemstones.jade_block": "Block of Jade"
 }
