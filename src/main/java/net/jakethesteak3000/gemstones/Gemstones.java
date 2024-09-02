@@ -2,6 +2,7 @@ package net.jakethesteak3000.gemstones;
 
 import com.mojang.logging.LogUtils;
 import net.jakethesteak3000.gemstones.block.ModBlocks;
+import net.jakethesteak3000.gemstones.item.ModCreativeModTabs;
 import net.jakethesteak3000.gemstones.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -30,6 +31,8 @@ public class Gemstones {
         modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);

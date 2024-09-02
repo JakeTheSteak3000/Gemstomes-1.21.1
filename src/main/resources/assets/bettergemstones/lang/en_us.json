@@ -7,5 +7,7 @@
   "block.bettergemstones.sapphire_block": "Block of Sapphire",
   "block.bettergemstones.ruby_block": "Block of Ruby",
   "block.bettergemstones.topaz_block": "Block of Topaz",
-  "block.bettergemstones.jade_block": "Block of Jade"
+  "block.bettergemstones.jade_block": "Block of Jade",
+
+  "creativetab.bettergemstones.gemstone_items": "Gemstone Items"
 }
